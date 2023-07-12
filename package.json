@@ -1,0 +1,19 @@
+{
+    "name": "archive",
+    "description": "Archive API Module",
+    "version": "0.0.1-dev",
+    "main": "dist/index.js",
+    "license": "Apache License 2.0",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node-dev index.ts",
+        "test": "ts-node-dev test.ts"
+    },
+    "devDependencies": {
+        "ts-node-dev": "^2.0.0"
+    },
+    "dependencies": {
+        "@types/node": "^20.4.1",
+        "typescript": "^5.1.6"
+    }
+}

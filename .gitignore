@@ -1,0 +1,27 @@
+node_modules
+.env
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Log files
+logs/*
+*.log
+npm-debug.log*
+
+# Miscellaneous
+.tmp/
+.idea/
+.DS_Store
+
+# Database
+*.sqlite
+
+# Build data
+build/

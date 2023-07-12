@@ -14,9 +14,6 @@ jobs:
         with:
           node-version: 17
           cache: yarn
-          
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
 
       - name: Run ESLint
         run: yarn lint:fix

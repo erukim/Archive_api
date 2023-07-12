@@ -1,7 +1,7 @@
 {
     "name": "archiveapi",
     "description": "Archive API Module",
-    "version": "1.0.2-dev",
+    "version": "1.0.3",
     "main": "dist/index.js",
     "license": "Apache License 2.0",
     "scripts": {
